@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* Styling for the About Me page */
+.about{
+  background-color: black;
+  margin-top: var(--spacing-five);
+  margin-bottom: var(--spacing-five);
+}
+
+.mypic{
+  display: row;
+  height:  600px;
+  width: 100%;
+
+}
+
+.about h1{
+  color:antiquewhite;
+}
+
+.about p{
+  color: antiquewhite;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
+
+/* Styling for Nav-Bar */
+.home{
+  background-color: cadetblue;
+}
+h1{
+color: rgb(31, 25, 22);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-row{
+display: flex;
+justify-content: right;
+padding: 10px;
+}
+
+
+
+.nav-tabs{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #232222;
+  color: whitesmoke;
+}
+
+.nav-item{
+  background-color: white;
+}
+
+li.nav-item{
+  color: aqua;
+}
+
+/*  Styling for the Portfolio Page */
+.port-page{
+  background-color: black;
+}
+
+/*  Styling for the Resume Page */
+.resume{
+  background-color: black;
+  color: antiquewhite;
+}
+
+.resume h1{
+  color: antiquewhite;
+}
+
+/*  Styling for the Contact Page */
+.contact{
+background-color: black;
+}
+
+.contact h1{
+  color: antiquewhite;
+}
+
+.contact img{
+  background-color: cornsilk;
+}
