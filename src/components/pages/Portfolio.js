@@ -1,7 +1,7 @@
 import React from "react";
 
 const Portfolio = () => (
-  <div>
+  <div className="portfolio">
     <h1>Portfolio</h1>
    <div className="port-page">
      <a href="https://mycipe.herokuapp.com/">

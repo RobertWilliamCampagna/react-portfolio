@@ -79,6 +79,10 @@ li.nav-item{
   background-color: black;
 }
 
+.portfolio h1{
+  color:antiquewhite;
+}
+
 /*  Styling for the Resume Page */
 .resume{
   background-color: black;
