@@ -18,7 +18,7 @@ body {
 }
 
 .mypic{
-  display: row;
+  display: flex;
   height:  600px;
   width: 100%;
 
@@ -76,12 +76,24 @@ li.nav-item{
 
 /*  Styling for the Portfolio Page */
 .port-page{
+  display: flex;
   background-color: black;
 }
 
 .portfolio h1{
   color:antiquewhite;
 }
+
+.port-page p{
+  display: flex;
+  align-items: center;
+  color: antiquewhite;
+}
+
+.port-page footer{
+  color: aqua;
+}
+
 
 /*  Styling for the Resume Page */
 .resume{
@@ -102,6 +114,15 @@ background-color: black;
   color: antiquewhite;
 }
 
-.contact img{
-  background-color: cornsilk;
+.contact p{
+  color: antiquewhite;
 }
+
+.contact img{
+  background-color: antiquewhite;
+}
+
+.port-page a{
+  color:antiquewhite;
+}
+

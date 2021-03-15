@@ -6,8 +6,9 @@ function Contact() {
     <h1>Contact Me</h1>
     <div>
     <a href="https://github.com/RobertWilliamCampagna">
-       <img className="chefhat" src="https://i.imgur.com/MmJtkOs.png?1" alt="myCipe app log"/>
+       <img className="github" src="https://i.imgur.com/MmJtkOs.png?1" alt="github-logo"/>
      </a>
+     <p>Link to my GITHUB page.</p>
     </div>
   </div>
   )
