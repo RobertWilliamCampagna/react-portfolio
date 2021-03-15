@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 
@@ -62,11 +63,15 @@ padding: 10px;
 }
 
 .nav-item{
-  background-color: white;
+  background-color: rgb(5, 5, 5);
+}
+
+.nav-link{
+  color: rgb(200, 202, 202);
 }
 
 li.nav-item{
-  color: aqua;
+  color: antiquewhite;
 }
 
 /*  Styling for the Portfolio Page */
