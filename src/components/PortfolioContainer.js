@@ -4,6 +4,7 @@ import Portfolio from './pages/Portfolio';
 import About from '../components/pages/About';
 import Resume from './pages/Resume';
 import Contact from '../components/pages/Contact';
+import Footer from '../components/Footer'
 
 
 function PortfolioPage() {
@@ -22,6 +23,7 @@ console.log(currentPage);
       case "Resume":
         return <Resume />
     
+    
       default:
         break;
     }
@@ -33,22 +35,12 @@ console.log(currentPage);
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Call the renderPage function passing in the currentPage */}
       <div>{renderPage(currentPage)}</div>
+     
+          <Footer currentPage={currentPage} handlePageChange={handlePageChange}  />
+      
     </div>
   );
 }
 
-//   return (
-//     <div>
-//       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-//       <div>
-//         {
-//           // Render the component returned by 'renderPage()'
-//           // YOUR CODE HERE
-//           <div>{renderPage(currentPage)}</div>
-//         }
-//       </div>
-//     </div>
-//   );
-// }
 
 export default PortfolioPage;

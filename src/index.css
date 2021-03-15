@@ -126,3 +126,21 @@ background-color: black;
   color:antiquewhite;
 }
 
+.footer p{
+  size: 5px;
+  color: antiquewhite;
+}
+
+.footer{
+  size: 15px;
+}
+
+.fab fa-github {
+  color: antiquewhite;
+}
+
+.social-container a{
+display: flex;
+justify-content: center;
+
+}
