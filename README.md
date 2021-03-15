@@ -1,5 +1,7 @@
 # My Professional Portfolio
 
+<img src="https://i.imgur.com/Piu9hgK.png">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
