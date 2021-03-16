@@ -11,8 +11,7 @@ function PortfolioPage() {
   const [currentPage, handlePageChange] = useState('About');
 console.log(currentPage);
   const renderPage = () => {
-    // Add a switch statement that will return the appropriate component of the 'currentPage'
-    // YOUR CODE HERE
+    //  switch statement that will return the appropriate component of the 'currentPage'
     switch (currentPage) {
       case "About":
         return <About />
@@ -31,13 +30,9 @@ console.log(currentPage);
 
   return (
     <div>
-      {/* Pass the state value and the setter as props to NavTabs */}
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Call the renderPage function passing in the currentPage */}
       <div>{renderPage(currentPage)}</div>
-     
-          <Footer currentPage={currentPage} handlePageChange={handlePageChange}  />
-      
+      <Footer currentPage={currentPage} handlePageChange={handlePageChange}  />
     </div>
   );
 }

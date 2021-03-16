@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import PortfolioContainer from "../src/components/PortfolioContainer";
 import './App.css';
 import SocialFollow from "./SocialFollow";
-// import NavBar from './components/NavBar';
-// import About from "../src/components/pages/About"
-
 
 
 function App() {

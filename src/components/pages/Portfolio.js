@@ -1,5 +1,6 @@
 import React from "react";
 
+// This is the action of the Portfolio Page
 const Portfolio = () => (
   <div className="portfolio">
     <h1>Portfolio</h1>

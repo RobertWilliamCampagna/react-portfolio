@@ -8,6 +8,12 @@ body {
   background-color: black;
 }
 
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+
 
 
 /* Styling for the About Me page */
@@ -126,21 +132,10 @@ background-color: black;
   color:antiquewhite;
 }
 
-.footer p{
-  size: 5px;
-  color: antiquewhite;
-}
-
-.footer{
-  size: 15px;
-}
-
-.fab fa-github {
-  color: antiquewhite;
-}
-
 .social-container a{
 display: flex;
 justify-content: center;
+background-color: #232222;
+color: rgb(95, 110, 116);
 
 }

@@ -1,5 +1,7 @@
 import React from "react";
 
+
+// This is the action for the Contact Page
 function Contact() {
   return (
   <div className="contact">
