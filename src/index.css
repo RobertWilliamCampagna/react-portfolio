@@ -132,10 +132,34 @@ background-color: black;
   color:antiquewhite;
 }
 
+.social-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+  
+}
+
 .social-container a{
 display: flex;
 justify-content: center;
 background-color: #232222;
 color: rgb(95, 110, 116);
 
+
+}
+
+.teams{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.about .mets{
+  color: rgb(24, 24, 224);
+}
+
+.about .isles{
+  color: rgb(250, 133, 0);
 }
