@@ -124,8 +124,10 @@ background-color: black;
   color: antiquewhite;
 }
 
-.contact img{
-  background-color: antiquewhite;
+.github-image .logo{
+  display: flex;
+  height: 65px;
+  background: antiquewhite;
 }
 
 .port-page a{

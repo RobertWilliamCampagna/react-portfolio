@@ -2,6 +2,8 @@
 
 <img src="https://i.imgur.com/4tknGCE.png">
 
+<strong>My professional portfolio, the early years.  I will add more as I accomplish more.</strong>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
