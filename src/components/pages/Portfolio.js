@@ -13,7 +13,7 @@ const Portfolio = () => (
        This is an appilication for chefs, an online database to store and share recipes.  Create a Chef Name. Create a recipe. Share recipe.  Each Chef will have their own Dashboard that will display their own personal recipes.  As a Guest, you may enjoy searching recipes and a Dashbaord with all recipes will be at your disposal.  Enjoy searching recipes!<br></br>
       </p>
       </div>
-    <footer>Created with my partners<a href="https://github.com/nrhuizar"> Nick Huizar</a>, <a href="https://github.com/ericasiegel">Erica Siegle</a> and <a href="https://github.com/naomiilang">Naomi Lang</a>.</footer>
+    <footer>Created with my partners<a href="https://www.linkedin.com/in/nick-huizar/"> Nick Huizar</a>, <a href="https://www.linkedin.com/in/erica-siegel-79427640/">Erica Siegle</a> and <a href="https://www.linkedin.com/in/naomi-lang-03b0751b8/">Naomi Lang</a>.</footer>
     </section>
 
     <section className="adaigoElement">
@@ -25,7 +25,7 @@ const Portfolio = () => (
         A fun way to start your day!  AdaigoElement is a dashboard that provides your horoscope for the day, along with songs from your favorite artists!
       </p>
       </div>
-      <footer>Created by: Robert, Weng and Stephanie.</footer>
+      <footer>Created by: Robert, <a href="https://www.linkedin.com/in/weng-fung/">Weng</a> and <a href="https://www.linkedin.com/in/stephaniefreylersantana/">Stephanie</a>.</footer>
       </section>
      </div>
 

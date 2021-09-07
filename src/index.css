@@ -162,15 +162,35 @@ li.nav-item{
   background-color: black;
   color: antiquewhite;
 }
+.resume h1{
+  color: rgb(224, 209, 191);
+}
+
+.resume #resume{
+  color:rgb(163, 161, 145)
+}
+
+.resume h3{
+  color: rgb(142, 142, 196);
+}
 
 .resume h1{
-  color: antiquewhite;
+  color: rgb(250, 215, 217);
 }
 
 /*  Styling for the Contact Page */
-.contact{
-background-color: black;
+
+.section-title-about{
+color:rgb(17, 226, 226)
 }
+
+.contact-container{
+  color: black;
+}
+.contact-container #contact-form{
+  color: blueviolet;
+}
+
 
 .contact h1{
   color: antiquewhite;
@@ -178,6 +198,11 @@ background-color: black;
 
 .contact p{
   color: antiquewhite;
+}
+
+#contact-form button{
+  background: blueviolet;
+  color: aqua;
 }
 
 .github-image .logo{
@@ -197,6 +222,7 @@ background-color: black;
   gap: 20px;
   
   
+  
 }
 
 .social-container a{
@@ -208,9 +234,6 @@ color: rgb(95, 110, 116);
 
 }
 
-#contact-form{
-  background-color: rgb(0, 0, 0);
-}
 
 .teams{
   display: flex;

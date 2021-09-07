@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Form, Button, Card} from 'react-bootstrap'
+import {Form, Button} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -42,7 +42,7 @@ function ContactForm() {
 
   return (
     <section>
-        <h1 class="section-title about">Reach Out:</h1>
+        <h1 class="section-title-about">To get in touch.</h1>
         <div class="contact-container">
           <Form id="contact-form" onSubmit={handleSubmit}>
               <div>
