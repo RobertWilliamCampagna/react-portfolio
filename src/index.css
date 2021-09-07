@@ -160,23 +160,11 @@ li.nav-item{
 /*  Styling for the Resume Page */
 .resume{
   background-color: black;
-  color: antiquewhite;
-}
-.resume h1{
-  color: rgb(224, 209, 191);
-}
-
-.resume #resume{
-  color:rgb(163, 161, 145)
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.resume h3{
-  color: rgb(142, 142, 196);
-}
-
-.resume h1{
-  color: rgb(250, 215, 217);
-}
 
 /*  Styling for the Contact Page */
 
